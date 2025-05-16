@@ -267,13 +267,14 @@ class Ui_NetKit(object):
         self.tx_btn.setText(_translate("MainWindow", "发送"))
 
 
-# if __name__ == '__main__':
-#     import sys
-#     from PySide6.QtWidgets import QApplication
-#     app = QApplication(sys.argv)
-#     MainWindow = QMainWindow()
-#     gui = Ui_NetKit()
-#     gui.setupUi(MainWindow)
-#     MainWindow.show()
-#     sys.exit(app.exec())
+if __name__ == '__main__':
+    import sys
+    from PySide6.QtWidgets import QApplication
+    from PySide6.QtWidgets import QMainWindow
+    app = QApplication(sys.argv)
+    MainWindow = QMainWindow()
+    gui = Ui_NetKit()
+    gui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec())
 
